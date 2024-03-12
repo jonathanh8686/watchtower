@@ -11,7 +11,7 @@
 			"program": "src/app.py",
 			"cwd": "${workspaceFolder}",
 			"console": "integratedTerminal",
-			"args": "-f games/1.21.csv"
+			"args": "-f games/3.9/3.9.csv"
 		}
 	]
 }

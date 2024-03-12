@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+
 from structs import Action
 
 
@@ -31,6 +32,7 @@ class Call(Action):
 class Raise(Action):
     amount: float
     all_in: bool = False
+
 
 @dataclass
 class Collected(Action):
